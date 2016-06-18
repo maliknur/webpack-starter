@@ -1,0 +1,20 @@
+{
+  "name": "webpack-starter",
+  "version": "0.0.1",
+  "description": "Webpack starter",
+  "main": "home.js",
+  "devDependencies": {
+    "babel-core": "^5.3.3",
+    "babel-loader": "^5.3.3",
+    "babel-runtime": "^6.9.2",
+    "webpack": "^1.13.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "author": "Malik Nurmatov <mnurmatov@gmail.com> (https://github.com/maliknurmatov)",
+  "license": "ISC"
+}
