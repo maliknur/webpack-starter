@@ -5,9 +5,10 @@ const NODE_ENV = process.env.NODE_ENV || 'development';
 const webpack = require('webpack');
 
  module.exports = {
+ 	context: __dirname + '/client',
  	entry: {
- 		home: './client/home',
- 		about: './client/about'
+ 		home: './home',
+ 		about: './about'
  	},
  	output: {
  		path: __dirname + '/public',
@@ -33,6 +34,9 @@ const webpack = require('webpack');
  		new webpack.DefinePlugin({
  			NODE_ENV: JSON.stringify(NODE_ENV),
  			LANG: JSON.stringify('en')
+ 		}),
+ 		new webpack.ProvidePlugin({
+ 			pluck: 'lodash/collection/pluck'
  		})
  	],
 

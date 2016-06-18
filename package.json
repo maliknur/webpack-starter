@@ -13,5 +13,8 @@
     "webpack"
   ],
   "author": "Malik Nur <malik.dba.pro@gmail.com> (https://github.com/maliknur)",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.13.1"
+  }
 }
