@@ -9,12 +9,9 @@
     "babel-runtime": "^6.9.2",
     "webpack": "^1.13.1"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "keywords": [
     "webpack"
   ],
-  "author": "Malik Nurmatov <mnurmatov@gmail.com> (https://github.com/maliknurmatov)",
+  "author": "Malik Nur <malik.dba.pro@gmail.com> (https://github.com/maliknur)",
   "license": "ISC"
 }
