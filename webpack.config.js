@@ -5,11 +5,14 @@ const NODE_ENV = process.env.NODE_ENV || 'development';
 const webpack = require('webpack');
 
  module.exports = {
- 	entry: './home',
+ 	entry: {
+ 		home: './client/home',
+ 		about: './client/about'
+ 	},
  	output: {
- 		path: __dirname + '/dist',
- 		filename: 'build.js',
- 		library: 'home'
+ 		path: __dirname + '/public',
+ 		filename: '[name].js',
+ 		library: '[name]'
  	},
  	
  	watch: NODE_ENV === 'development',
