@@ -55,8 +55,8 @@ const webpack = require('webpack');
  	module: {
  		loaders: [{
  			test: /\.js$/,
- 			loader: 'babel?optional[]=runtime',
  			exclude: /node_modules/,
+ 			loader: 'babel?optional[]=runtime'
  		}]		
  	}
  };
