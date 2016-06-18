@@ -29,6 +29,18 @@ const webpack = require('webpack');
  	],
 
 
+
+ 	resolve: {
+ 		modulesDirectories: ['node_modules'],
+ 		extensions: ['', '.js']
+ 	},
+
+ 	resolveLoader: {
+ 		modulesDirectories: ['node_modules'],
+ 		moduleTemplates: ['*-loader'],
+ 		extensions: ['', '.js']
+ 	},
+
  	// transpile JS files with Babel
  	module: {
  		loaders: [{
