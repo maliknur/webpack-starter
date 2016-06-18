@@ -26,6 +26,7 @@ const webpack = require('webpack');
 
  	// plugin for environment settings
  	plugins: [
+ 		new webpack.NoErrorsPlugin(),
  		new webpack.DefinePlugin({
  			NODE_ENV: JSON.stringify(NODE_ENV),
  			LANG: JSON.stringify('en')
