@@ -1,3 +1,4 @@
+'use strict';
 
 const NODE_ENV = process.env.NODE_ENV || 'development';
 
@@ -28,8 +29,6 @@ const webpack = require('webpack');
  		})
  	],
 
-
-
  	resolve: {
  		modulesDirectories: ['node_modules'],
  		extensions: ['', '.js']
@@ -49,6 +48,8 @@ const webpack = require('webpack');
  			exclude: /node_modules/,
  		}]		
  	}
- }   
+ };
+
+
 
 
